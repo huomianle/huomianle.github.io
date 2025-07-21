@@ -1,0 +1,32 @@
+theme: jekyll-theme-minimal
+
+title: huomianle's Blog
+
+description: >-
+  👋 Hi! Welcome to my blog. 🎉
+  I will continue to update my learning content. 👊
+
+url: "https://huomianle.github.io"
+
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+social_links:
+  github: huomianle
+
+#paginate: 5
+#paginate_path: "/page:num/"
+
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+#exclude:
+  - .gitignore
