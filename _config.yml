@@ -11,12 +11,10 @@ permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 
-social_links:
-  github: huomianle
-
-#paginate: 5
-#paginate_path: "/page:num/"
-
+collections:
+  leetcode:
+    output: true
+    permalink: /leetcode/:name/
 
 plugins:
   - jekyll-remote-theme
