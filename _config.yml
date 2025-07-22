@@ -2,10 +2,7 @@ theme: jekyll-theme-cayman
 
 title: huomianle's Blog
 
-description: >-
-  👋 Hello! Welcome to my blog. 🎉
-
-  I will continue to update my learning content. 👊
+description: "👋 Hello! Welcome to my blog. 🎉<br><br>I will continue to update my learning content. 👊"
 
 url: "https://huomianle.github.io"
 
