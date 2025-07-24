@@ -25,3 +25,10 @@ plugins:
 
 #exclude:
   - .gitignore
+
+defaults:
+  - scope:
+      path: ""
+      type: "leetcode"
+    values:
+      layout: "leetcode_answer"
