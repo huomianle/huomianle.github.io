@@ -4,6 +4,14 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.2", ">= 6.2.3"
 
+# 添加 Jekyll 和必要的插件
+gem "jekyll", "~> 4.3"
+gem "jekyll-paginate"
+gem "jekyll-redirect-from"
+gem "jekyll-seo-tag"
+gem "jekyll-archives"
+gem "jekyll-sitemap"
+
 group :test do
   gem "html-proofer", "~> 4.4"
 end
