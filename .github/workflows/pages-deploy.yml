@@ -43,10 +43,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
-          bundler-cache: true
-
-      - name: Update Gemfile.lock
-        run: bundle lock --update
+          bundler-cache: true # This will install and cache your gems
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
