@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://huomianle.github.io"
 
 github:
-  username: huomianle github username
+  username: huomianle
 
 social:
   # full name.
@@ -70,7 +70,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://huomianle.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
